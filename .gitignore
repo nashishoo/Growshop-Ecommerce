@@ -1,3 +1,9 @@
+# Agent and Skills
+.agent/
+skills/
+agent/
+
+
 # Environment variables (sensitive data)
 .env
 .env.local
