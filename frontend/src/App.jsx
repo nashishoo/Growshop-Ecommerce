@@ -40,8 +40,8 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const baseName = import.meta.env.PROD
     ? import.meta.env.BASE_URL
-    : window.location.pathname.startsWith('/Growshop-model/')
-      ? '/Growshop-model/'
+    : window.location.pathname.startsWith('/Growshop-Ecommerce/')
+      ? '/Growshop-Ecommerce/'
       : '/';
 
   useEffect(() => {

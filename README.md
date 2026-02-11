@@ -1,9 +1,9 @@
-﻿  # Conectados 420 Growshop
+  # Conectados 420 Growshop
 
 > **La plataforma integral para el cultivador moderno.** GestiÃ³n de ventas, comunidad y administraciÃ³n especializada.
 
 
-**Live:** https://nashishoo.github.io/Growshop-model/
+**Live:** https://nashishoo.github.io/Growshop-Ecommerce/
 
 ![Hero Section](https://i.postimg.cc/J7ccxcDG/hero-420.png)
 
