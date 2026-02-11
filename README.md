@@ -1,4 +1,4 @@
-# Conectados 420 Growshop
+  # Conectados 420 Growshop
 
 > **La plataforma integral para el cultivador moderno.** Gestión de ventas, comunidad y administración especializada.
 
@@ -141,10 +141,10 @@ La aplicación estará disponible en `http://localhost:5173`.
 
 ---
 
-## � Documentación Adicional
+## 📚 Documentación Adicional
 
-*   [Manual de Usuario Completo](MANUAL_USUARIO.md): Guía detallada de uso para clientes y staff.
-*   [Configuración de Mercado Pago](MERCADOPAGO_SETUP.md): Pasos para activar la pasarela de pagos.
+*   [Manual de Usuario Completo](docs/MANUAL_USUARIO.md): Guía detallada de uso para clientes y staff.
+*   [Configuración de Mercado Pago](docs/MERCADOPAGO_SETUP.md): Pasos para activar la pasarela de pagos.
 
 ---
 
