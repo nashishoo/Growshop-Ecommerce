@@ -4,6 +4,9 @@
 
 ![Hero Section](https://i.postimg.cc/J7ccxcDG/hero-420.png)
 
+> [!NOTE]
+> **Inventario Precargado**: El catálogo inicial de productos ha sido generado mediante un scraper desarrollado específicamente para este proyecto, facilitando el llenado automático de la base de datos ante la ausencia de una API pública de productos del rubro.
+
 ## 📖 Descripción
 
 Conectados 420 es un e-commerce especializado que conecta a los cultivadores con los mejores productos del mercado. La plataforma está dividida en dos grandes áreas: la tienda pública para clientes y el panel de administración para la gestión del negocio.
@@ -13,9 +16,13 @@ Conectados 420 es un e-commerce especializado que conecta a los cultivadores con
 ### Para Clientes
 - **Experiencia de Usuario Moderna**: Hero section con promociones, navegación intuitiva y búsqueda rápida.
 - **Catálogo Completo**: Organización por categorías (Semillas, Indoor, Nutrientes, Parafernalia, etc.).
+- **Pagos Seguros**: Integración 100% funcional con **Mercado Pago**.
+- **Notificaciones Automáticas**: Sistema de envío de correos electrónicos para confirmación de pedidos y actualizaciones de estado.
 - **Sistema de Registro "Club 420"**: Beneficios exclusivos para usuarios registrados.
 - **Proceso de Compra Flexible**: Carrito persistente, múltiples métodos de pago y checkout como invitado o registrado.
 - **Seguimiento**: Historial de pedidos y estado de envíos.
+
+![Mercado Pago y Emails](https://i.postimg.cc/bvv8R4fP/mercadopago-emails.png)
 
 ### Para Administradores
 - **Dashboard Integral**: Métricas en tiempo real de ventas, pedidos y stock.
@@ -26,6 +33,13 @@ Conectados 420 es un e-commerce especializado que conecta a los cultivadores con
 - **CRM**: Base de datos de clientes y segmentación.
 
 ![Dashboard Admin](https://i.postimg.cc/gkzyTX83/admin-panel-dashboard.png)
+
+### Galería de Administración
+
+<div align="center">
+  <img src="https://i.postimg.cc/J7x55r0m/admin-gestion-cupones.png" alt="Cupones" width="45%" style="margin: 5px;" />
+  <img src="https://i.postimg.cc/HsY0hcX7/admin-panel-gestion-envios.png" alt="Envíos" width="45%" style="margin: 5px;" />
+</div>
 
 ## 🛠️ Módulos del Sistema
 
