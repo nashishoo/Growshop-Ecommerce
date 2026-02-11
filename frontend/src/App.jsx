@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
@@ -38,6 +38,11 @@ import ProtectedClientRoute from './components/ProtectedClientRoute';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const baseName = import.meta.env.PROD
+    ? import.meta.env.BASE_URL
+    : window.location.pathname.startsWith('/Growshop-model/')
+      ? '/Growshop-model/'
+      : '/';
 
   useEffect(() => {
     // Simulate loading time (e.g., 2.5 seconds)
@@ -55,7 +60,7 @@ function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <Router>
+        <Router basename={baseName}>
           <Routes>
             {/* Public Store Routes */}
             <Route path="/" element={
@@ -144,6 +149,7 @@ function App() {
               <Route path="cola-envios" element={<ShippingQueue />} />
               <Route path="configuracion" element={<SettingsPage />} />
             </Route>
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Router>
       </CartProvider>
