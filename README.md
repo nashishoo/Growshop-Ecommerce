@@ -106,7 +106,14 @@ VITE_SUPABASE_ANON_KEY=tu_clave_anonima
 VITE_MERCADOPAGO_PUBLIC_KEY=tu_public_key_mp
 ```
 
-### 4. Iniciar el servidor de desarrollo
+### 4. Configurar Base de Datos (Supabase)
+Para tener la base de datos funcional con datos de prueba:
+
+1.  Ve al **SQL Editor** de tu proyecto en Supabase.
+2.  Copia y ejecuta el contenido de `supabase/schema_dump.sql` (Crea la estructura).
+3.  Copia y ejecuta el contenido de `supabase/seed.sql` (Pobla categorías, marcas y configuración).
+
+### 5. Iniciar el servidor de desarrollo
 ```bash
 npm run dev
 ```
